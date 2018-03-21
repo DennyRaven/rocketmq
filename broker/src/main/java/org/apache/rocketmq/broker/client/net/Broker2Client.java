@@ -55,7 +55,7 @@ import org.slf4j.LoggerFactory;
 
 public class Broker2Client {
     private static final Logger log = LoggerFactory.getLogger(LoggerName.BROKER_LOGGER_NAME);
-    private final BrokerController brokerController;
+    private final BrokerController brokerController;//test
 
     public Broker2Client(BrokerController brokerController) {
         this.brokerController = brokerController;
